@@ -1,0 +1,57 @@
+# 🚀 Portfolio Website — Vivek Dalimbkar
+
+A modern, minimal, and professional portfolio website built from scratch with pure HTML, CSS, and JavaScript — designed to impress recruiters and tech founders.
+
+## Preview
+
+````carousel
+![Hero Section — Dark Mode](C:\Users\vivek\.gemini\antigravity\brain\bb287520-ce50-4838-93fc-8a38c58d0ac7\screenshot_hero_dark.png)
+<!-- slide -->
+![Hero Section — Light Mode](C:\Users\vivek\.gemini\antigravity\brain\bb287520-ce50-4838-93fc-8a38c58d0ac7\screenshot_hero_light.png)
+<!-- slide -->
+![Contact Section](C:\Users\vivek\.gemini\antigravity\brain\bb287520-ce50-4838-93fc-8a38c58d0ac7\screenshot_contact.png)
+````
+
+## File Structure
+
+| File | Purpose |
+|---|---|
+| [index.html](file:///c:/Users/vivek/.vscode/portfolio/index.html) | Full page markup with semantic HTML5 |
+| [index.css](file:///c:/Users/vivek/.vscode/portfolio/index.css) | Complete design system — tokens, themes, components, responsive |
+| [main.js](file:///c:/Users/vivek/.vscode/portfolio/main.js) | Theme toggle, scroll animations, mobile menu, contact form |
+| `assets/` | Avatar image and hero background |
+
+## Sections Built
+
+| # | Section | Key Features |
+|---|---|---|
+| 1 | **Hero** | Bold name with gradient accent, tagline, CTA buttons, social icons, scroll indicator |
+| 2 | **About** | Two-column layout with avatar, professional bio, highlight badges |
+| 3 | **Skills** | 4 categorized cards (Frontend, Backend, Database, Tools & DevOps) with hover effects |
+| 4 | **Projects** | Featured StockFloww card + 2 project cards with tech tags and links |
+| 5 | **Experience** | Timeline layout with 4 milestones — freelance, internship, hackathon, certifications |
+| 6 | **Contact** | Two-column: social links + clean contact form with visual submit feedback |
+
+## Features Implemented
+
+- ✅ **Dark / Light mode** — Smooth toggle with localStorage persistence
+- ✅ **Scroll reveal animations** — Elements fade in as they enter viewport
+- ✅ **Active nav highlighting** — Auto-highlights current section in navbar
+- ✅ **Mobile responsive** — Full hamburger menu + responsive grid layouts
+- ✅ **Mouse glow effect** — Subtle radial gradient follows cursor
+- ✅ **Micro-interactions** — Hover lifts, border glows, button transforms
+- ✅ **Contact form** — Submit with loading → success visual feedback
+- ✅ **Resume download** — CTA button links to `assets/Vivek_Dalimbkar_Resume.pdf`
+- ✅ **SEO optimized** — Title, meta description, Open Graph tags, semantic HTML
+
+## Design Aesthetic
+
+- **Typography**: Inter (headings & body) + JetBrains Mono (code/tags)
+- **Color palette**: Deep navy dark mode with electric indigo/purple accents
+- **Style**: Vercel/Linear-inspired — clean borders, glassmorphic nav, balanced whitespace
+
+> [!TIP]
+> To make the **Download Resume** button work, place your resume PDF at `assets/Vivek_Dalimbkar_Resume.pdf`.
+
+> [!NOTE]
+> To deploy, just upload the folder to **Vercel**, **Netlify**, or **GitHub Pages** — no build step needed. It's pure HTML/CSS/JS.
