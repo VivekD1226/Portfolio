@@ -636,42 +636,8 @@ ol {
   font-weight: 500;
   color: var(--text-secondary);
   letter-spacing: 0.02em;
-  margin-bottom: var(--space-md);
-  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.38s both;
-}
-
-/* ---- Certification: Small supporting text ---- */
-.hero-cert {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: var(--fs-sm);
-  font-weight: 500;
-  color: var(--text-tertiary);
   margin-bottom: var(--space-2xl);
-  padding: 6px 16px;
-  border: 1px solid var(--border-primary);
-  border-radius: var(--radius-full);
-  background: var(--bg-secondary);
-  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.46s both;
-  transition: border-color var(--transition-fast), color var(--transition-fast);
-}
-
-.hero-cert:hover {
-  border-color: var(--border-accent);
-  color: var(--text-accent);
-}
-
-.hero-cert-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-accent);
-}
-
-.hero-cert-icon svg {
-  width: 14px;
-  height: 14px;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.38s both;
 }
 
 .hero-cta {
